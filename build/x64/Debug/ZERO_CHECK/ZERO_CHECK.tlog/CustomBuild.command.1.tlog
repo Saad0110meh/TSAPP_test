@@ -1,0 +1,10 @@
+^C:\USERS\SAA'D\DESKTOP\CODES\RAYLIB-PROJECTS\TSAPP\BUILD\CMAKEFILES\0D196B45F552F02F2FA32C4D3FBF14DE\GENERATE.STAMP.RULE
+setlocal
+D:\Software\bin\cmake.exe "-SC:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP" "-BC:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP/build/TSAPP_test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

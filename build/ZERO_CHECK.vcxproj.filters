@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Saa'd\Desktop\Codes\Raylib-projects\TSAPP\build\CMakeFiles\0d196b45f552f02f2fa32c4d3fbf14de\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3A75DD86-55A7-3B37-8524-ECAA1C3A1630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

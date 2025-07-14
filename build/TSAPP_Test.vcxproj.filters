@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Saa'd\Desktop\Codes\Raylib-projects\TSAPP\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Saa'd\Desktop\Codes\Raylib-projects\TSAPP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FA7D4404-8B99-3FE0-8A64-2F7969B41640}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

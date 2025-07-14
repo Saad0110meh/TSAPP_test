@@ -1,0 +1,8 @@
+{
+    "name" : "TSAPP_test",
+    "description": "TSAPP_test",
+    "license": "MIT",
+    "dependencies": [
+        "raylib"
+    ]
+}

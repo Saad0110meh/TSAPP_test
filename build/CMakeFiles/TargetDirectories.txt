@@ -1,0 +1,3 @@
+C:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP/build/CMakeFiles/TSAPP_test.dir
+C:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Saa'd/Desktop/Codes/Raylib-projects/TSAPP/build/CMakeFiles/ZERO_CHECK.dir
