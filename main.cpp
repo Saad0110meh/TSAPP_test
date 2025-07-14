@@ -69,7 +69,7 @@ int main()
         for (int i = 1; i <= 100; i++)
         {
             Vector3 pos = GetTilePosition(i);
-            Color color = (i % 2 == 0) ? SKYBLUE : LIGHTGRAY;
+            Color color = (i % 2 == 0) ? RED : LIGHTGRAY;
 
             DrawCube(pos, TILE_SIZE, 0.1f, TILE_SIZE, color);
             DrawCubeWires(pos, TILE_SIZE, 0.1f, TILE_SIZE, DARKGRAY);
@@ -78,7 +78,7 @@ int main()
         // Draw player
         Vector3 playerPos = GetTilePosition(playerTile);
         playerPos.y += 0.5f;
-        DrawSphere(playerPos, 0.5f, RED);
+        DrawSphere(playerPos, 0.5f, BLUE);
 
         EndMode3D();
 
