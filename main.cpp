@@ -111,13 +111,13 @@ int main()
 {
     InitWindow(windowWidth, windowHeight, "Snakes & Ladders 2D - raylib");
 
-    Texture2D snakeTexture = LoadTexture("pngwing.com.png");
-    Texture2D ladderTexture = LoadTexture("pngwing(1).com.png");
-    Texture2D lifeTexture = LoadTexture("life.png");
+    Texture2D snakeTexture = LoadTexture("../../Assets/pngwing.com.png");
+    Texture2D ladderTexture = LoadTexture("../../Assets/pngwing(1).com.png");
+    Texture2D lifeTexture = LoadTexture("../../Assets/life.png");
     Texture2D diceTextures[6];
     for (int i = 0; i < 6; i++) {
         char filename[20];
-        sprintf(filename, "dice%d.png", i+1);
+        sprintf(filename, "../../Assets/dice%d.png", i+1);
         diceTextures[i] = LoadTexture(filename);
     }
     int playerTile = 1;
